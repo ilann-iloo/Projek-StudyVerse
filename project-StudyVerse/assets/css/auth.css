@@ -1,0 +1,154 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+    min-height:100vh;
+
+    background:linear-gradient(
+        135deg,
+        #f8d9c8,
+        #ecdfff,
+        #d6d9ff
+    );
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    overflow:hidden;
+}
+
+.bg-circle{
+    position:absolute;
+    border-radius:50%;
+    filter:blur(90px);
+}
+
+.circle1{
+    width:300px;
+    height:300px;
+    background:#ffbe98;
+    left:-50px;
+    top:-50px;
+}
+
+.circle2{
+    width:350px;
+    height:350px;
+    background:#cbb5ff;
+    right:-80px;
+    bottom:-80px;
+}
+
+.auth-container{
+    width:1000px;
+    max-width:90%;
+
+    display:flex;
+
+    background:rgba(255,255,255,.35);
+
+    backdrop-filter:blur(25px);
+
+    border-radius:30px;
+
+    overflow:hidden;
+
+    border:1px solid rgba(255,255,255,.4);
+}
+
+.auth-left{
+    flex:1;
+
+    padding:60px;
+
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+}
+
+.auth-left h1{
+    color:#7c5cff;
+    margin-bottom:20px;
+}
+
+.auth-left h2{
+    font-size:40px;
+    color:#3a2e61;
+}
+
+.auth-left p{
+    margin-top:20px;
+    color:#666;
+    line-height:1.8;
+}
+
+.auth-right{
+    flex:1;
+
+    background:rgba(255,255,255,.45);
+
+    padding:50px;
+}
+
+.auth-right h2{
+    margin-bottom:25px;
+    color:#3a2e61;
+}
+
+.input-group{
+    margin-bottom:20px;
+}
+
+.input-group label{
+    display:block;
+    margin-bottom:8px;
+    font-size:14px;
+}
+
+.input-group input{
+    width:100%;
+
+    padding:14px;
+
+    border:none;
+
+    border-radius:12px;
+
+    background:white;
+}
+
+.btn-primary{
+    width:100%;
+
+    padding:15px;
+
+    border:none;
+
+    border-radius:12px;
+
+    background:#7c5cff;
+
+    color:white;
+
+    font-size:16px;
+
+    cursor:pointer;
+
+    margin-top:10px;
+}
+
+.auth-link{
+    text-align:center;
+    margin-top:20px;
+}
+
+.auth-link a{
+    color:#7c5cff;
+    text-decoration:none;
+    font-weight:600;
+}
